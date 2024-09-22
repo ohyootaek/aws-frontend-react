@@ -1,0 +1,59 @@
+/* src/styles/common.css */
+
+.container {
+    display: flex; /* 플렉스 박스 사용 */
+}
+
+.BlogHeader {
+    color: #4b5055; /* 글자 색상 */
+}
+
+.Sidebar {
+    width: 200px; /* 사이드바 폭 */
+    background-color: bisque;
+    padding: 20px; /* 패딩 추가 */
+    position: fixed; /* 고정 위치 */
+    left: 0;
+    top: 130px; /* 헤더 아래에 위치 */
+    bottom: 0; /* 하단까지 차지 */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+    transition: background-color 0.3s; /* 배경색 변화 효과 */
+}
+
+.Sidebar h2 {
+    color: #333; /* 제목 색상 */
+    margin-bottom: 15px; /* 제목 아래 여백 */
+}
+
+.Sidebar ul {
+    list-style: none; /* 기본 리스트 스타일 제거 */
+    padding: 0; /* 패딩 제거 */
+}
+
+.Sidebar li {
+    margin: 10px 0; /* 리스트 아이템 사이 여백 */
+}
+
+.Sidebar a {
+    text-decoration: none; /* 링크 기본 스타일 제거 */
+    color: #4b5055; /* 링크 색상 */
+    padding: 10px; /* 패딩 추가 */
+    display: block; /* 블록 요소로 설정하여 클릭 영역 확대 */
+    border-radius: 4px; /* 모서리 둥글게 */
+    transition: background-color 0.3s; /* 배경색 변화 효과 */
+}
+
+.Sidebar a:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* 호버 시 배경색 변화 */
+}
+
+.main-content {
+    margin-left: 100px; /* 사이드바 폭만큼 왼쪽 마진 추가 */
+    margin-top: 100px; /* 헤더 높이만큼 상단 마진 추가 */
+    padding: 20px; /* 패딩 추가 */
+    flex: 1; /* 남은 공간을 차지하도록 설정 */
+}
+
+.Main li {
+    padding: 5px;
+}
