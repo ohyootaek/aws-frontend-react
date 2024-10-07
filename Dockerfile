@@ -17,17 +17,10 @@ RUN yarn build
 # Nginx 이미지 사용하여 정적 파일 서빙
 FROM nginx:stable-alpine
 
-# Nginx 설정 파일 복사
-COPY nginx.conf /etc/nginx/nginx.conf  # nginx.conf 파일을 컨테이너에 복사
-
 # 빌드된 파일을 Nginx의 기본 경로로 복사
 COPY --from=build /app/build /usr/share/nginx/html
 
-# SSL 인증서 복사 (필요에 따라)
-COPY path/to/your/fullchain.pem /etc/ssl/certs/fullchain.pem
-COPY path/to/your/privkey.pem /etc/ssl/private/privkey.pem
-
-# Nginx 포트 설정 (HTTPS를 위해 443 포트 사용)
+# Nginx 포트 설정 (기본 80)
 EXPOSE 80 443
 
 # Nginx 실행
