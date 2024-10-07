@@ -8,6 +8,7 @@ const axiosInstance = axios.create({
     headers: {
         "content-type": "application/json",
         Authorization: `Bearer ${accessToken}`,     
+        
     },
 });
 
