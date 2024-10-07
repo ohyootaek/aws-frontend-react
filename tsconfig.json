@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
     "target": "es6",
     "lib": [
       "dom",
@@ -23,9 +24,6 @@
     "jsx": "preserve"
   },
   "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules"
+    "src"
   ]
 }

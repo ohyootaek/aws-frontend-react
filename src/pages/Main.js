@@ -35,14 +35,15 @@ function Main() {
             <span style={{ color: "blue" }}>Redis</span>
           </li>
           <li>
-            <strong>Front : </strong>
+            <strong>Front-end : </strong>
             <span style={{ color: "grey" }}>Vue3</span>,{" "}
             <span style={{ color: "blue" }}>React</span>,{" "}
             <span style={{ color: "blue" }}>Typescript</span>
           </li>
           <li>
-            <strong>Back : </strong>
-            <span style={{ color: "blue" }}>Java Spring Boot</span>
+            <strong>Back-end : </strong>
+            <span style={{ color: "blue" }}>Java Spring Boot</span>,{" "}
+            <span style={{ color: "blue" }}>JPA</span>
           </li>
         </ul>
       </div>

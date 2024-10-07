@@ -1,9 +1,4 @@
 /* src/styles/common.css */
-
-.container {
-    display: flex; /* 플렉스 박스 사용 */
-}
-
 .BlogHeader {
     color: #4b5055; /* 글자 색상 */
 }
@@ -48,7 +43,7 @@
 }
 
 .main-content {
-    margin-left: 100px; /* 사이드바 폭만큼 왼쪽 마진 추가 */
+    margin-left: 300px; /* 사이드바 폭만큼 왼쪽 마진 추가 */
     margin-top: 100px; /* 헤더 높이만큼 상단 마진 추가 */
     padding: 20px; /* 패딩 추가 */
     flex: 1; /* 남은 공간을 차지하도록 설정 */
