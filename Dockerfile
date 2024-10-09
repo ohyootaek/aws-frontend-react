@@ -14,6 +14,8 @@ RUN yarn install
 COPY . .
 RUN yarn build
 
+# npx serve를 사용하여 정적 파일 제공
+CMD ["npx", "serve", "-s", ".", "-l", "3000"]
+
+# 포트 노출
 EXPOSE 3000
-# 기본 명령어 (빌드 완료 메시지 출력)
-CMD ["echo", "Build completed"]
