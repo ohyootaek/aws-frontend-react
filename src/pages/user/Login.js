@@ -56,7 +56,6 @@ function Login() {
     setData(data);
     setError(error);
   };
-
   return (
     <div className="login">
       <h4>로그인 관련 기능 구현</h4>
