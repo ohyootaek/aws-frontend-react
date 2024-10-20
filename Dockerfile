@@ -15,7 +15,7 @@ COPY . .
 RUN yarn build
 
 # npx serve를 사용하여 정적 파일 제공
-CMD ["npx", "serve", "-s", ".", "-l", "3000"]
+CMD ["npx", "serve", "-s", "build", "-l", "3000"]
 
 # 포트 노출
 EXPOSE 3000
