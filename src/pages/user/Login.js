@@ -39,7 +39,6 @@ function Login() {
   const onSaveRedis = async () => {
     if (!key) return alert("key 입력은 필수입니다.");
     if (!value) return alert("value 입력은 필수입니다.");
-    
     const { data, error } = await saveRedis(key, value);
     setData(data);
     setError(error);
