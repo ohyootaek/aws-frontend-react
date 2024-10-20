@@ -51,6 +51,7 @@ function Main() {
           <li>
             <strong>Back-end : </strong>
             <span style={{ color: "blue" }}>Java Spring Boot</span>,{" "}
+            <span style={{ color: "blue" }}>MyBatis</span>,{" "}
             <span style={{ color: "blue" }}>JPA</span>
           </li>
         </ul>
