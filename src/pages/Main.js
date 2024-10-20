@@ -27,6 +27,14 @@ function Main() {
           )
         </h4>
         <ul>
+        <li>
+            <strong>배포 : </strong>
+            <span style={{ color: "blue" }}>AWS ec2</span>,{" "}
+            <span style={{ color: "blue" }}>AWS rds</span>,{" "}
+            <span style={{ color: "blue" }}>docker/ docker-compose</span>,{" "}
+            <span style={{ color: "blue" }}>nginx</span>
+            <span style={{ color: "blue" }}>certbot(ssl 인증 자동갱신)</span>
+          </li>
           <li>
             <strong>DB : </strong>
             <span style={{ color: "grey" }}>Oracle</span>,{" "}
